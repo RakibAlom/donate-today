@@ -4,17 +4,27 @@
 }
 body {
   font-family: "Nunito Sans", sans-serif;
+  font-size: 18px;
 }
 
 /* COMMON CSS */
+.container {
+  padding: 80px 40px 40px;
+  width: 80%;
+  margin: 0 auto;
+}
 .section-title {
   font-size: 45px;
   font-weight: 700;
   font-family: "Exo", sans-serif;
   color: #121212;
+  line-height: 60px;
+  text-align: center;
 }
 .section-slogan {
+  text-align: center;
   font-size: 18px;
+  padding: 20px 0;
   color: #707070;
 }
 .display-flex {
@@ -28,32 +38,112 @@ body {
   color: #fff;
   font-size: 18px;
   font-weight: 500;
-  font-family: "Nunito Sans", sans-serif;
   cursor: pointer;
+  font-family: "Nunito Sans", sans-serif;
 }
 /* COMMON CSS */
 
 /* HEADER AREA */
 .header-area {
-  height: 90vh;
   background-image: url("./images/banner-img.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
 .banner-area {
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.4);
+  padding: 220px 0px;
+  background-color: rgba(0, 0, 0, 0.6);
   color: #fff;
   text-align: center;
-  align-items: center;
-  padding: 30vh 20vh;
 }
 .banner-title {
   font-family: "Exo", sans-serif;
   font-size: 65px;
 }
 .banner-slogan {
-  font-size: 18px;
   padding: 20px;
 }
 /* HEADER AREA */
+
+/* DONATE AREA */
+.donate-amounts {
+  justify-content: center;
+  padding: 30px;
+}
+.donate-single-amount {
+  width: 140px;
+  height: 125px;
+  background-color: #fafafa;
+  border: 3px solid #fafafa;
+  border-radius: 5px;
+  margin: 10px;
+  color: #707070;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.donate-single-amount .amount {
+  font-size: 20px;
+  font-weight: 800;
+  font-family: "Exo", sans-serif;
+}
+.donate-single-amount.active {
+  background-color: #ffe3e3;
+  border: 3px solid #ff5959;
+  color: #ff5959;
+}
+.other-amount {
+  text-align: center;
+}
+.other-amount input {
+  color: #707070;
+  font-family: "Nunito Sans", sans-serif;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #dadada;
+  padding: 6px 0;
+  width: 100%;
+  margin-bottom: 30px;
+}
+.other-amount input::placeholder {
+  color: #b3b3b3;
+  text-align: center;
+  font-size: 18px;
+  font-family: "Nunito Sans", sans-serif;
+}
+/* DONATE AREA */
+
+/* DONATE PLAN AREA */
+.donate-plans {
+  padding: 40px 0px;
+  gap: 20px;
+  justify-content: center;
+}
+.single-donate-plan {
+  width: 360px;
+  padding: 40px 20px;
+  border-radius: 5px;
+}
+.single-donate-plan img {
+  height: 55px;
+  width: 55px;
+  padding: 10px 0;
+}
+.single-plan-title {
+  font-size: 24px;
+  padding: 16px 0;
+  font-family: "Exo", sans-serif;
+}
+.single-plan-para {
+  color: #707070;
+  padding: 10px 0px;
+}
+.bg-color-1 {
+  background-color: #edf5f6;
+}
+.bg-color-2 {
+  background-color: #ffeeee;
+}
+.bg-color-3 {
+  background-color: #fff4d6;
+}
+/* DONATE PLAN AREA */
