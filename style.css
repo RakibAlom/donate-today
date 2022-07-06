@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+/* COMMON CSS */
+.section-title {
+  font-size: 45px;
+  font-weight: 700;
+  font-family: "Exo", sans-serif;
+  color: #121212;
+}
+.section-slogan {
+  font-size: 18px;
+  color: #707070;
+}
+.display-flex {
+  display: flex;
+}
+.button {
+  padding: 10px 16px;
+  background-color: #ff5959;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Nunito Sans", sans-serif;
+  cursor: pointer;
+}
+/* COMMON CSS */
+
+/* HEADER AREA */
+.header-area {
+  height: 90vh;
+  background-image: url("./images/banner-img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.banner-area {
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: #fff;
+  text-align: center;
+  align-items: center;
+  padding: 30vh 20vh;
+}
+.banner-title {
+  font-family: "Exo", sans-serif;
+  font-size: 65px;
+}
+.banner-slogan {
+  font-size: 18px;
+  padding: 20px;
+}
+/* HEADER AREA */
