@@ -60,8 +60,8 @@ body {
 
 /* DONATE AREA */
 .donate-area {
-  padding: 80px 40px 40px;
-  width: 80%;
+  padding: 80px 0px 40px;
+  width: 1260px;
   margin: auto;
 }
 .donate-amounts {
@@ -101,7 +101,7 @@ body {
   outline: none;
   border-bottom: 1px solid #dadada;
   padding: 6px 0;
-  width: 70%;
+  width: 850px;
   margin-top: 20px;
   margin-bottom: 30px;
 }
@@ -114,8 +114,8 @@ body {
 
 /* DONATE PLAN AREA */
 .donate-plan-area {
-  padding: 80px 40px 40px;
-  width: 80%;
+  padding: 80px 0px 40px;
+  width: 1160px;
   margin: auto;
 }
 .donate-plans {
@@ -155,17 +155,17 @@ body {
 
 /* LATEST NEWS AREA */
 .latest-news-area {
-  padding: 80px 40px 40px;
-  width: 80%;
+  padding: 80px 0px 40px;
+  width: 1160px;
   margin: auto;
 }
 .news {
   padding: 40px 0;
 }
 .single-news {
-  width: 380px;
+  width: 360px;
   margin: auto;
-  box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
   border-radius: 5px;
 }
 .single-news img {
@@ -194,13 +194,13 @@ body {
 
 /* NEWSLETTER AREA */
 .newsletter-area {
-  width: 80%;
+  width: 1160px;
   margin: auto;
   margin: 0 auto;
   padding: 40px 0 80px;
 }
 .subscribe-area {
-  width: 70%;
+  width: 850px;
   margin: 30px auto;
   padding: 80px 20px;
   text-align: center;
