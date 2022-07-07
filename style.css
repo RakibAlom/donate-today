@@ -34,6 +34,9 @@ body {
   cursor: pointer;
   font-family: "Exo", sans-serif;
 }
+a{
+  text-decoration: none;
+}
 /* COMMON CSS */
 
 /* HEADER AREA */
@@ -188,7 +191,6 @@ body {
 }
 .news-title a{
   color: #121212;
-  text-decoration: none;
 }
 /* LATEST NEWS AREA */
 
@@ -249,7 +251,7 @@ body {
   padding-bottom: 20px;
 }
 .footer .para {
-  color: #b3b3b3;
+  color: #fff;
   font-size: 15px;
 }
 /* FOOTER AREA */
