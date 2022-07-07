@@ -120,13 +120,13 @@ body {
 }
 .donate-plans {
   padding: 40px 0px;
-  gap: 30px;
   justify-content: center;
 }
 .single-donate-plan {
   width: 360px;
   padding: 40px 20px;
   border-radius: 5px;
+  margin: 10px;
 }
 .single-donate-plan img {
   height: 55px;
@@ -185,6 +185,10 @@ body {
 .news-title {
   font-size: 22px;
   font-weight: 700;
+}
+.news-title a{
+  color: #121212;
+  text-decoration: none;
 }
 /* LATEST NEWS AREA */
 
